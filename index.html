@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Fale conosco pelo site</title>
+</head>
+<body>
+  <h1>
+    Fale Conosco
+  </h1>
+  <b>Avalie nosso trabalho, como inserir algumas dados no campo
+abaixo e se possivel deixe uma sugestão ou comentario;)</b><p>
+  <form><form>
+    <fieldset>
+      <legend>Dados Pessoais</legend>
+      <label for="fname">Nome: </label><br>
+      <input type="text" name="fname"><br>
+      <label for="fmail">Email: </label><br>
+      <input type="email" name="fmail"><br>
+        <label for="ftel"> Telefone: </label><br>
+        <input type="tel" name="ftel"><br>
+      <label for="furl">site ou Blog(opcional): </label><br>
+      <input type="url" name="furl"><br></p>
+    <input type="reset">
+    </fieldset><p>
+    
+    
+    <form>
+      <fieldset> 
+        <legend>Sua visita</legend>
+        <label for="dat"> Data de Visita: </label>
+        <input type="date" name="dat">
+        <label for="regiao">Região visitada</label>
+        <select id="regiao" name="regiao">
+          <option value="centro">Centro</option>
+          <option value="zona-norte">Zona norte</option>
+          <option value="zona-sul">Zona sul</option><p>
+          </select><br>
+          <label>Avaliação da Visita: </label>
+          <input type="radio" name="avaliacao"
+            value="exelente"> Exelente
+          <input type="radio" name="avaliacao"
+            value="Boa"> Boa
+          <input type="radio" name="avaliacao"
+            value="regular"> Regular</p>
+          </label><br>
+      <label for="comentario"> comentarios ou sujestão:
+      </label><br>
+      <textarea name="comentario"></textarea>
+      <label for="copia">Enviar cópia para meu Email:</label>
+      <input type="checkbox" name="copia"><br>
+      <label for="limpeza">Nivel de Limpeza (1-10): </label>
+      <input type="range" name="limpeza" min="1" max="10">
+      
+      <label for="foto">Enviar Foto (opcional)</label>
+      <input type="file" name="foto">
+      </fieldset></P>
+  </form>
+  <input type="submit" name="Botao-ok" value="Enviar">
+  <input type="reset" value="resetar">
+  
+  
+</body>
+</html>
